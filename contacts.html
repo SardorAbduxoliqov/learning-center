@@ -251,6 +251,7 @@
 
   formEmail.addEventListener("submit", (e) => {
     e.preventDefault();
+    location.reload();
     fetch(scriptURLEmail, { method: "POST", body: new FormData(formEmail) })
     .then((response) => location.reload())
       // .then((response) => alert("You have successfully submitted."))
@@ -263,6 +264,7 @@
 
     form.addEventListener("submit", (e) => {
       e.preventDefault();
+      location.reload();
       fetch(scriptURL, { method: "POST", body: new FormData(form) })
       .then((response) => location.reload())
         // .then((response) => alert("You have successfully submitted."))
