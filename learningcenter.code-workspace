@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "..\\aws"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "site"
+	}
+}
